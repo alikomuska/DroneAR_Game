@@ -159,7 +159,6 @@ Custom Processing Hardware
 
 This could remove the unnecessary HDMI and USB capture stages from the computer-vision pipeline.
 
----
 
 # Hardware Challenge
 
@@ -208,10 +207,7 @@ Virtual Gates / Rings
 
 The first goal is to make a virtual object remain fixed at a known 3D position while the camera moves around it.
 
-
-
-
-Pose Estimation During Temporary Marker Loss
+# Pose Estimation During Temporary Marker Loss challenge
 
 A second major challenge is that the drone cannot rely on continuously detecting an ArUco marker.
 
@@ -254,6 +250,7 @@ ArUco detected again
 Correct accumulated error
 
 A simple first approach would be to estimate the drone's velocity from consecutive position measurements
+
 
 
 
